@@ -7,7 +7,7 @@
 body{ 
     background-color: lightblue;
     font-size: 20px; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-family: 'roboto'
 
 } 
  nav{  
@@ -33,7 +33,7 @@ body{
   background-color: transparent; /* Background color for the navbar */ 
   color: beige; /* Text color for the navbar items */
   font-size: 30px; /* Font size for the navbar items */ 
-  font-family: cursive; /* Font family for the navbar items */
+  font-family: roboto; /* Font family for the navbar items */
   float: right; /* Aligns the list items to the right */
   margin-right: 20px; /* Adds space between the list items */  
   font-style: oblique;  
@@ -59,32 +59,32 @@ form{
   width:50%;
   margin: 20px;
 } 
-#work a{ 
+section.work a{ 
   text-decoration: none; 
   color:black 
 } 
-#work a:hover{ 
+section.work a:hover{ 
   background-color: blue; 
 }      
-#work{ 
+section.work{ 
   margin: 20px;
   background-color: rgb(175, 217, 229); 
   box-shadow: 5px 10px 18px #888888;
   padding: 10px;
 }
-#home {
+.home {
   margin: 20px;
   background-color: transparent;
   box-shadow: 5px 10px 18px #888888;
   padding: 30px;
 }
-#about{ 
+.about{ 
   margin: 20px;
   background-color: rgb(175, 217, 229); 
   box-shadow: 5px 10px 18px #888888; 
   padding: 10px;
 }  
-#resume{ 
+.resume{ 
   margin-top: 20px;
   background-color: rgb(175, 217, 229); 
   box-shadow: 5px 10px 18px #888888; 
