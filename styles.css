@@ -25,7 +25,7 @@ body{
  
  
  .navbar ul li {
-  display: flex;
+  display: inline;
   justify-content: space-around;
   list-style-type: none; /* Removes bullet points */
   padding: 0;
